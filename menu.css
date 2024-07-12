@@ -1,0 +1,42 @@
+body {
+    background-color:burlywood
+}
+h2 {
+    text-align: center;
+    font-style: italic;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h3{
+    text-align: center;
+}
+hr{
+height: 4px;
+background-color: brown;
+border-color: brown;
+}
+h1{
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    margin-left: 70px;
+}
+.line{
+    height: 2px;
+}
+.pic{
+    display: inline-block;
+    height: 50px;
+    width: 100px;
+    border-radius: 20%;
+}
+.btn{
+    background-color: burlywood;
+}
+.pics{
+    border-radius: 15%;
+    border: 4px solid bisque;
+}
