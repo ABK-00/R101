@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Form</title>
+        <link rel="stylesheet" href="./booking.css">
+    </head>
+    <body>
+        <h1 id="title">Make A Reservation</h1>
+        <hr>
+        <a href="/index.html"><button class="btn">Home</button></a>
+        <a href="./menu.html"><button class="btn">Menu</button></a>
+        <a href="./contact.html"><button class="btn">Contact</button></a>
+        <a href="https://maps.app.goo.gl/YQV6FWRCwJMP7juf8"><button class="btn">Map</button></a>
+        <p><h2>Plese provide the necessary informaton to make your resrvation<h2></h2></p>
+        <form method="post" action="./reservation.html">
+            <fieldset>
+                <legend><h3>Personal Information</h3></legend>
+                <label id="full-name" for="full-name">Enter Your Full Name: <input id="name" type="text" placeholder="Mr. Adjei"></label>
+                <p><label id="number" for="number">Phone Number: <input id="contact" type="number" placeholder="00000000"></label></p>
+                <label id="email" for="email">Email: <input id="mail" type="email"></label>
+            </fieldset>
+            <fieldset>
+                <legend><h3>Reservation Details</h3></legend>
+                <label id="tables" for="tables">Number Of Tables: <input id="tables" type="number" min="1" max="10"></label>
+                <p><label id="seats" for="seats">Number Of Persons/Seats: <input id="seat" type="number" min="1" max="20"></label></p>
+                <label id="date" for="date">Date: <input id="date" type="date"></label>
+                <label id="time" for="time">Time: <input id="time" type="time"></label>
+               <p> 
+                <select id="drop-down" name="ref">
+                    <option value="">select one</option>
+                    <option value="1">Upstairs</option>
+                    <Option value="2">Downstairs</Option>
+                </select>
+                <select id="drop-down">
+                    <option value="">select one</option>
+                    <option value="1">Outdoor</option>
+                    <option value="2">Indoor</option>
+                </select>
+            </p>
+            </fieldset>
+            <input id="submit" type="submit" value="Submit"/>
+        </form>
+    </body>
+</html>
